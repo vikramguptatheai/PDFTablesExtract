@@ -1,0 +1,102 @@
+2023-10-22 08:39:28,730 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:39:28,731 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:39:28,731 : [OK]   convert magic commands
+2023-10-22 08:39:28,732 : [OK]   commenting out unsupported magic commands
+2023-10-22 08:39:28,732 : [OK]   keeping new imports made by converter
+2023-10-22 08:39:28,732 : [NOT]  showing outputs from converter
+2023-10-22 08:39:28,735 : [WARN] !pip command detected
+2023-10-22 08:39:28,735 : [WARN] converted:
+    !pip install llama-index==0.8.35 llama-hub pypdf  to:
+    sub_p_res = subprocess.run(['pip', 'install', 'llama-index==0.8.35', 'llama-hub', 'pypd'], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    print(sub_p_res)
+
+2023-10-22 08:39:28,736 : [WARN] !wget command detected
+2023-10-22 08:39:28,736 : [WARN] converted:
+    !wget https://www.dropbox.com/s/qctkz6nxhm0y5qe/lyft_2021.pdf?dl=1 -O lyft_2021.pdf
+  to:
+    sub_p_res = subprocess.run(['wget', 'https://www.dropbox.com/s/qctkz6nxhm0y5qe/lyft_2021.pdf?dl=1', '-O', 'lyft_2021.pdf'], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    print(sub_p_res)
+
+2023-10-22 08:39:28,736 : [WARN] !wget command detected
+2023-10-22 08:39:28,736 : [WARN] converted:
+    !wget https://www.dropbox.com/s/te0a2w227v27iag/uber_2021.pdf?dl=1 -O uber_2021.pdf  to:
+    sub_p_res = subprocess.run(['wget', 'https://www.dropbox.com/s/te0a2w227v27iag/uber_2021.pdf?dl=1', '-O', 'uber_2021.pd'], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    print(sub_p_res)
+
+2023-10-22 08:39:28,737 : [WARN] !apt command detected
+2023-10-22 08:39:28,737 : [WARN] converted:
+    !apt install ghostscript python3-tk  to:
+    sub_p_res = subprocess.run(['apt', 'install', 'ghostscript', 'python3-t'], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    print(sub_p_res)
+
+2023-10-22 08:39:28,737 : [WARN] !pip command detected
+2023-10-22 08:39:28,737 : [WARN] converted:
+    !pip install camelot-py pymupdf frontend ghostscript  to:
+    sub_p_res = subprocess.run(['pip', 'install', 'camelot-py', 'pymupdf', 'frontend', 'ghostscrip'], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    print(sub_p_res)
+
+2023-10-22 08:39:28,738 : [WARN] !wget command detected
+2023-10-22 08:39:28,738 : [WARN] converted:
+    !wget "https://www.dropbox.com/scl/fi/waoz9bo9yiemnhnqvu0cc/billionaires_page.pdf?rlkey=4i08msa7zr1lpnuq2y1vs2xgw&dl=1" -O billionaires_page.pdf  to:
+    sub_p_res = subprocess.run(['wget', '"https://www.dropbox.com/scl/fi/waoz9bo9yiemnhnqvu0cc/billionaires_page.pdf?rlkey=4i08msa7zr1lpnuq2y1vs2xgw&dl=1"', '-O', 'billionaires_page.pd'], stdout=subprocess.PIPE).stdout.decode('utf-8')
+    print(sub_p_res)
+
+2023-10-22 08:39:28,738 : [WARN] adding new imports to the top of the file
+  # %%
+  # !! {"metadata":{
+  # !!   "id":"cc-imports"
+  # !! }}
+  
+  #<cc-imports>
+  
+  import subprocess
+  
+2023-10-22 08:45:28,198 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:45:28,199 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:45:28,200 : [NOT]  convert magic commands
+2023-10-22 08:45:28,200 : [NOT]  commenting out unsupported magic commands
+2023-10-22 08:45:28,200 : [WARN] --retain-magic (-rm) is detected, new imports will NOT be made
+2023-10-22 08:45:28,200 : [NOT]  keeping new imports made by converter
+2023-10-22 08:45:28,201 : [OK]   showing outputs from converter
+2023-10-22 08:47:46,461 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:47:46,462 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:47:46,462 : help message called
+2023-10-22 08:47:58,983 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:47:58,983 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:47:58,984 : help message called
+2023-10-22 08:48:09,552 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:48:09,553 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:48:09,553 : help message called
+2023-10-22 08:48:22,105 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:48:22,105 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:48:22,106 : help message called
+2023-10-22 08:48:29,369 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:48:29,370 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:48:29,370 : help message called
+2023-10-22 08:48:45,568 : 
+---------------------------
+----------[START]----------
+---------------------------
+2023-10-22 08:48:45,568 : [OK]   en_US Detected as a supported Language
+2023-10-22 08:48:45,569 : help message called

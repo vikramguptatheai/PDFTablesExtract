@@ -1,0 +1,13 @@
+llama-index==0.8.35
+llama-hub
+pypd
+pymupdf
+frontend
+ghostscript
+camelot-py[all]
+PyPDF2<3.0
+langchain
+openai
+streamlit==1.25.0
+pypdf
+camelot-py
